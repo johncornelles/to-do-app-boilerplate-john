@@ -4,7 +4,11 @@ const ul = document.querySelector("#todolist")
 
 
 add.onclick = () =>{
-    var li = document.createElement("li")
+    if (inputs.value == ""){
+        alert("Be productive empty task")
+    }
+    else{
+        var li = document.createElement("li")
     li.textContent = inputs.value;
     ul.appendChild(li)
     inputs.value = ""
@@ -14,6 +18,7 @@ add.onclick = () =>{
     var span = document.createElement("span")
     span.textContent = " |Edit"
     a.append(span)
+    }
 }
 
 ul.addEventListener("click", (e) => {
