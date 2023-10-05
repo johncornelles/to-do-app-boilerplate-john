@@ -60,14 +60,14 @@ img {
   border-bottom: 5px solid #7055d3;
 }
 
-#todolist li a {
+#todolist li a, #todolist li span {
   float: right;
   font-size: 16px;
   cursor: pointer;
 }
-
-#todolist li span{
+/* 
+{
   float: right;
   font-size: 16px;
   cursor: pointer;
-}
+} */
