@@ -65,3 +65,9 @@ img {
   font-size: 16px;
   cursor: pointer;
 }
+
+#todolist li span{
+  float: right;
+  font-size: 16px;
+  cursor: pointer;
+}
