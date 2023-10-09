@@ -4,7 +4,7 @@ const ul = document.querySelector("#todolist")
 
 
 add.onclick = () =>{
-    if (inputs.value == ""){
+    if (inputs.value.trim() ==""){
         alert("Be productive empty task")
     }
     else{
